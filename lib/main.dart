@@ -45,7 +45,7 @@ class _MyBagScreenState extends State<MyBagScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("My Bag"),
+        title: const Text("My Bag", style: TextStyle(fontWeight: FontWeight.bold),),
         //backgroundColor: Colors.redAccent,
       ),
       body: Padding(
